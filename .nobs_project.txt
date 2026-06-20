@@ -1,0 +1,43 @@
+name googletest
+
+units {
+  googletest {
+    "nobs.txt"
+  }
+}
+
+profiles {
+  windows_debug {
+    MSVC
+    WINDOWS
+    visual_studio_version = "2022"
+    LIB_PREFIX = ""
+    LIB_SUFFIX = ".lib"
+    C_FLAGS += ["/c", "/std:c++14", "/EHsc", "/MTd", "/Zi", "/Od"]
+  }
+
+  windows_release {
+    MSVC
+    WINDOWS
+    visual_studio_version = "2022"
+    LIB_PREFIX = ""
+    LIB_SUFFIX = ".lib"
+    C_FLAGS += ["/c", "/std:c++14", "/EHsc", "/MT", "/O2", "/DNDEBUG"]
+  }
+
+  unix_debug {
+    GNU
+    toolchain_min_version = "14"
+    LIB_PREFIX = "lib"
+    LIB_SUFFIX = ".a"
+    C_FLAGS += ["-c", "-std=c++14", "-pthread", "-g", "-O0"]
+  }
+
+  unix_release {
+    GNU
+    toolchain_min_version = "14"
+    LIB_PREFIX = "lib"
+    LIB_SUFFIX = ".a"
+    C_FLAGS += ["-c", "-std=c++14", "-pthread", "-O2", "-DNDEBUG"]
+  }
+}

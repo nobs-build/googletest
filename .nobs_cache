@@ -1,0 +1,226 @@
+NOBS_CACHE_V5
+8
+22
+googletest::gtest_main
+1
+1
+A 1 0
+123
+OBJS = P"D:\git\googletest\googletest-1.15.2\out\x64-win-msvc\windows_release\googletest\gtest_main_objects\gtest_main.obj"
+0
+2
+A 1 1
+114
+LIB = P"D:\git\googletest\googletest-1.15.2\out\x64-win-msvc\windows_release\googletest\gtest_main\gtest_main.lib"
+A 1 1
+27
+LIB_NAME = "gtest_main.lib"
+4
+A 1 0
+52
+PROJECT_ROOT = "D:\git\googletest\googletest-1.15.2"
+A 1 0
+30
+OUTPUT_NAME = "gtest_main.lib"
+A 1 0
+22
+OUTPUT_DEF_DIR = "out"
+A 1 0
+27
+PROFILE = "windows_release"
+25
+googletest::gtest_objects
+1
+1
+A 1 0
+78
+CPP_FILES = P"D:\git\googletest\googletest-1.15.2\googletest\src\gtest-all.cc"
+0
+1
+A 1 1
+117
+OBJS = P"D:\git\googletest\googletest-1.15.2\out\x64-win-msvc\windows_release\googletest\gtest_objects\gtest-all.obj"
+5
+A 1 0
+67
+C_FLAGS = [ "/c", "/std:c++14", "/EHsc", "/MD", "/O2", "/DNDEBUG" ]
+A 1 0
+122
+INCLUDE = [ P"D:\git\googletest\googletest-1.15.2\googletest", P"D:\git\googletest\googletest-1.15.2\googletest\include" ]
+A 1 0
+52
+PROJECT_ROOT = "D:\git\googletest\googletest-1.15.2"
+A 1 0
+22
+OUTPUT_DEF_DIR = "out"
+A 1 0
+27
+PROFILE = "windows_release"
+17
+googletest::gmock
+1
+1
+A 1 0
+117
+OBJS = P"D:\git\googletest\googletest-1.15.2\out\x64-win-msvc\windows_release\googletest\gmock_objects\gmock-all.obj"
+0
+2
+A 1 1
+104
+LIB = P"D:\git\googletest\googletest-1.15.2\out\x64-win-msvc\windows_release\googletest\gmock\gmock.lib"
+A 1 1
+22
+LIB_NAME = "gmock.lib"
+4
+A 1 0
+52
+PROJECT_ROOT = "D:\git\googletest\googletest-1.15.2"
+A 1 0
+25
+OUTPUT_NAME = "gmock.lib"
+A 1 0
+22
+OUTPUT_DEF_DIR = "out"
+A 1 0
+27
+PROFILE = "windows_release"
+17
+googletest::gtest
+1
+1
+A 1 0
+117
+OBJS = P"D:\git\googletest\googletest-1.15.2\out\x64-win-msvc\windows_release\googletest\gtest_objects\gtest-all.obj"
+0
+2
+A 1 1
+104
+LIB = P"D:\git\googletest\googletest-1.15.2\out\x64-win-msvc\windows_release\googletest\gtest\gtest.lib"
+A 1 1
+22
+LIB_NAME = "gtest.lib"
+4
+A 1 0
+52
+PROJECT_ROOT = "D:\git\googletest\googletest-1.15.2"
+A 1 0
+25
+OUTPUT_NAME = "gtest.lib"
+A 1 0
+22
+OUTPUT_DEF_DIR = "out"
+A 1 0
+27
+PROFILE = "windows_release"
+30
+googletest::gtest_main_objects
+1
+1
+A 1 0
+79
+CPP_FILES = P"D:\git\googletest\googletest-1.15.2\googletest\src\gtest_main.cc"
+0
+1
+A 1 1
+123
+OBJS = P"D:\git\googletest\googletest-1.15.2\out\x64-win-msvc\windows_release\googletest\gtest_main_objects\gtest_main.obj"
+5
+A 1 0
+67
+C_FLAGS = [ "/c", "/std:c++14", "/EHsc", "/MD", "/O2", "/DNDEBUG" ]
+A 1 0
+122
+INCLUDE = [ P"D:\git\googletest\googletest-1.15.2\googletest", P"D:\git\googletest\googletest-1.15.2\googletest\include" ]
+A 1 0
+52
+PROJECT_ROOT = "D:\git\googletest\googletest-1.15.2"
+A 1 0
+22
+OUTPUT_DEF_DIR = "out"
+A 1 0
+27
+PROFILE = "windows_release"
+25
+googletest::gmock_objects
+1
+1
+A 1 0
+78
+CPP_FILES = P"D:\git\googletest\googletest-1.15.2\googlemock\src\gmock-all.cc"
+0
+1
+A 1 1
+117
+OBJS = P"D:\git\googletest\googletest-1.15.2\out\x64-win-msvc\windows_release\googletest\gmock_objects\gmock-all.obj"
+5
+A 1 0
+67
+C_FLAGS = [ "/c", "/std:c++14", "/EHsc", "/MD", "/O2", "/DNDEBUG" ]
+A 1 0
+232
+INCLUDE = [ P"D:\git\googletest\googletest-1.15.2\googlemock", P"D:\git\googletest\googletest-1.15.2\googlemock\include", P"D:\git\googletest\googletest-1.15.2\googletest", P"D:\git\googletest\googletest-1.15.2\googletest\include" ]
+A 1 0
+52
+PROJECT_ROOT = "D:\git\googletest\googletest-1.15.2"
+A 1 0
+22
+OUTPUT_DEF_DIR = "out"
+A 1 0
+27
+PROFILE = "windows_release"
+22
+googletest::gmock_main
+1
+1
+A 1 0
+123
+OBJS = P"D:\git\googletest\googletest-1.15.2\out\x64-win-msvc\windows_release\googletest\gmock_main_objects\gmock_main.obj"
+0
+2
+A 1 1
+114
+LIB = P"D:\git\googletest\googletest-1.15.2\out\x64-win-msvc\windows_release\googletest\gmock_main\gmock_main.lib"
+A 1 1
+27
+LIB_NAME = "gmock_main.lib"
+4
+A 1 0
+52
+PROJECT_ROOT = "D:\git\googletest\googletest-1.15.2"
+A 1 0
+30
+OUTPUT_NAME = "gmock_main.lib"
+A 1 0
+22
+OUTPUT_DEF_DIR = "out"
+A 1 0
+27
+PROFILE = "windows_release"
+30
+googletest::gmock_main_objects
+1
+1
+A 1 0
+79
+CPP_FILES = P"D:\git\googletest\googletest-1.15.2\googlemock\src\gmock_main.cc"
+0
+1
+A 1 1
+123
+OBJS = P"D:\git\googletest\googletest-1.15.2\out\x64-win-msvc\windows_release\googletest\gmock_main_objects\gmock_main.obj"
+5
+A 1 0
+67
+C_FLAGS = [ "/c", "/std:c++14", "/EHsc", "/MD", "/O2", "/DNDEBUG" ]
+A 1 0
+232
+INCLUDE = [ P"D:\git\googletest\googletest-1.15.2\googlemock", P"D:\git\googletest\googletest-1.15.2\googlemock\include", P"D:\git\googletest\googletest-1.15.2\googletest", P"D:\git\googletest\googletest-1.15.2\googletest\include" ]
+A 1 0
+52
+PROJECT_ROOT = "D:\git\googletest\googletest-1.15.2"
+A 1 0
+22
+OUTPUT_DEF_DIR = "out"
+A 1 0
+27
+PROFILE = "windows_release"

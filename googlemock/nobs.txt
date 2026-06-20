@@ -1,0 +1,24 @@
+unit gmock
+
+build:
+{
+  C_FLAGS = "/c"
+
+  C_SRCS = [
+    P"(src/gmock-all.cc)",
+    P"(src/gmock-cardinalities.cc)",
+    P"(src/gmock-internal-utils.cc)",
+    P"(src/gmock-matchers.cc)",
+    P"(src/gmock-spec-builders.cc)",
+    P"(src/gmock.cc)",
+    P"(src/gmock_main.cc)"
+  ]
+
+  INCLUDE = [
+    P"(include)"
+  ]
+
+  output {
+    INCLUDE=INCLUDE
+  }
+}

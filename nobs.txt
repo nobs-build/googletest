@@ -1,0 +1,93 @@
+unit googletest
+
+build: gtest gtest_main gmock gmock_main
+{
+  NO_TOOL
+}
+
+gtest: +gtest_objects +gtest_api
+{
+  STATIC
+  OBJS
+  OUTPUT_NAME = "${LIB_PREFIX}gtest${LIB_SUFFIX}"
+  ^INCLUDE
+}
+
+gtest_objects:
+{
+  CPP_FILES = P"(googletest/src/gtest-all.cc)"
+  INCLUDE = [
+    P"(googletest)",
+    P"(googletest/include)"
+  ]
+}
+
+gtest_api:
+{
+  NO_TOOL
+  ^INCLUDE = P"(googletest/include)"
+}
+
+gtest_main: +gtest_main_objects +gtest_api
+{
+  STATIC
+  OBJS
+  OUTPUT_NAME = "${LIB_PREFIX}gtest_main${LIB_SUFFIX}"
+  ^INCLUDE
+}
+
+gtest_main_objects:
+{
+  CPP_FILES = P"(googletest/src/gtest_main.cc)"
+  INCLUDE = [
+    P"(googletest)",
+    P"(googletest/include)"
+  ]
+}
+
+gmock: +gmock_objects +gmock_api
+{
+  STATIC
+  OBJS
+  OUTPUT_NAME = "${LIB_PREFIX}gmock${LIB_SUFFIX}"
+  ^INCLUDE
+}
+
+gmock_objects:
+{
+  CPP_FILES = P"(googlemock/src/gmock-all.cc)"
+  INCLUDE = [
+    P"(googlemock)",
+    P"(googlemock/include)",
+    P"(googletest)",
+    P"(googletest/include)"
+  ]
+}
+
+gmock_api:
+{
+  NO_TOOL
+  ^INCLUDE = [
+    P"(googlemock/include)",
+    P"(googletest/include)"
+  ]
+}
+
+gmock_main: +gmock_main_objects +gmock_api
+{
+  STATIC
+  OBJS
+  OUTPUT_NAME = "${LIB_PREFIX}gmock_main${LIB_SUFFIX}"
+  ^INCLUDE
+}
+
+gmock_main_objects:
+{
+  CPP_FILES = P"(googlemock/src/gmock_main.cc)"
+  INCLUDE = [
+    P"(googlemock)",
+    P"(googlemock/include)",
+    P"(googletest)",
+    P"(googletest/include)"
+  ]
+}

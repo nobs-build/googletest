@@ -1,0 +1,2 @@
+// The project is defined by the root nobs.txt. This file is intentionally
+// not registered as a separate unit.
